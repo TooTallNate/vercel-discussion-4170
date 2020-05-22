@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "parcel src/index.html -d public -p $PORT",
+    "build": "parcel build src/index.html -d public"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.3.1"
+  }
+}

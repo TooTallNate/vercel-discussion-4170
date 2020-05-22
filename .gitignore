@@ -1,0 +1,4 @@
+.vercel
+.cache
+public
+node_modules
